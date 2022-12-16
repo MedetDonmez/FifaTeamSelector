@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5B5E2B4294C503D0023339E /* SpinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5E2B3294C503D0023339E /* SpinViewController.swift */; };
+		C5B5E2B6294C8FA40023339E /* Click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5B5E2B5294C8FA40023339E /* Click.mp3 */; };
 		C5D820AF2930F21A0023F3B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D820AE2930F21A0023F3B3 /* AppDelegate.swift */; };
 		C5D820B12930F21A0023F3B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D820B02930F21A0023F3B3 /* SceneDelegate.swift */; };
 		C5D820B32930F21A0023F3B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D820B22930F21A0023F3B3 /* ViewController.swift */; };
 		C5D820B62930F21A0023F3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D820B42930F21A0023F3B3 /* Main.storyboard */; };
 		C5D820B82930F21C0023F3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D820B72930F21C0023F3B3 /* Assets.xcassets */; };
 		C5D820BB2930F21C0023F3B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D820B92930F21C0023F3B3 /* LaunchScreen.storyboard */; };
+		C5D93C94294B3E89008586F2 /* SwiftFortuneWheel in Frameworks */ = {isa = PBXBuildFile; productRef = C5D93C93294B3E89008586F2 /* SwiftFortuneWheel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5B5E2B3294C503D0023339E /* SpinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinViewController.swift; sourceTree = "<group>"; };
+		C5B5E2B5294C8FA40023339E /* Click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Click.mp3; sourceTree = "<group>"; };
 		C5D820AB2930F21A0023F3B3 /* selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D820AE2930F21A0023F3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D820B02930F21A0023F3B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D93C94294B3E89008586F2 /* SwiftFortuneWheel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,8 +67,10 @@
 				C5D820B22930F21A0023F3B3 /* ViewController.swift */,
 				C5D820B42930F21A0023F3B3 /* Main.storyboard */,
 				C5D820B72930F21C0023F3B3 /* Assets.xcassets */,
+				C5B5E2B5294C8FA40023339E /* Click.mp3 */,
 				C5D820B92930F21C0023F3B3 /* LaunchScreen.storyboard */,
 				C5D820BC2930F21C0023F3B3 /* Info.plist */,
+				C5B5E2B3294C503D0023339E /* SpinViewController.swift */,
 			);
 			path = selector;
 			sourceTree = "<group>";
@@ -83,6 +91,9 @@
 			dependencies = (
 			);
 			name = selector;
+			packageProductDependencies = (
+				C5D93C93294B3E89008586F2 /* SwiftFortuneWheel */,
+			);
 			productName = selector;
 			productReference = C5D820AB2930F21A0023F3B3 /* selector.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,9 @@
 				Base,
 			);
 			mainGroup = C5D820A22930F21A0023F3B3;
+			packageReferences = (
+				C5D93C92294B3E88008586F2 /* XCRemoteSwiftPackageReference "SwiftFortuneWheel" */,
+			);
 			productRefGroup = C5D820AC2930F21A0023F3B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D820BB2930F21C0023F3B3 /* LaunchScreen.storyboard in Resources */,
+				C5B5E2B6294C8FA40023339E /* Click.mp3 in Resources */,
 				C5D820B82930F21C0023F3B3 /* Assets.xcassets in Resources */,
 				C5D820B62930F21A0023F3B3 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B5E2B4294C503D0023339E /* SpinViewController.swift in Sources */,
 				C5D820B32930F21A0023F3B3 /* ViewController.swift in Sources */,
 				C5D820AF2930F21A0023F3B3 /* AppDelegate.swift in Sources */,
 				C5D820B12930F21A0023F3B3 /* SceneDelegate.swift in Sources */,
@@ -358,6 +374,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C5D93C92294B3E88008586F2 /* XCRemoteSwiftPackageReference "SwiftFortuneWheel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sh-khashimov/SwiftFortuneWheel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C5D93C93294B3E89008586F2 /* SwiftFortuneWheel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5D93C92294B3E88008586F2 /* XCRemoteSwiftPackageReference "SwiftFortuneWheel" */;
+			productName = SwiftFortuneWheel;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C5D820A32930F21A0023F3B3 /* Project object */;
 }
