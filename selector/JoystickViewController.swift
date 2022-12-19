@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class JoystickViewController: UIViewController {
     
     @IBOutlet weak var con1: NSLayoutConstraint!
     @IBOutlet weak var con2: NSLayoutConstraint!
@@ -66,7 +66,8 @@ class ViewController: UIViewController {
             
             self.view.layoutIfNeeded()
             
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "SpinViewController") as! SpinViewController
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "SettingsViewController") as! SettingsViewController
+//            let vc = SettingsViewController()
             
             self.navigationController?.pushViewController(vc, animated: true)
             
