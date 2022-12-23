@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5833A80295455AA0029B620 /* tails2.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5833A7F295455A90029B620 /* tails2.gif */; };
+		C5833A8229545B010029B620 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5833A8129545B000029B620 /* 3.gif */; };
+		C5833A84295473F70029B620 /* heads.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5833A83295473F70029B620 /* heads.gif */; };
 		C5B5E2B4294C503D0023339E /* SpinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5E2B3294C503D0023339E /* SpinViewController.swift */; };
 		C5B5E2B6294C8FA40023339E /* Click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5B5E2B5294C8FA40023339E /* Click.mp3 */; };
 		C5B5E2B8294C9E810023339E /* Tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5B5E2B7294C9E810023339E /* Tick.mp3 */; };
@@ -16,6 +19,8 @@
 		C5B5E2E429509B710023339E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5E2E329509B710023339E /* MainViewController.swift */; };
 		C5B5E2E729509CA60023339E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5E2E529509CA50023339E /* CustomCollectionViewCell.swift */; };
 		C5B5E2E829509CA60023339E /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5B5E2E629509CA50023339E /* CustomCollectionViewCell.xib */; };
+		C5B5E2EA295333290023339E /* CoinFlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5E2E9295333290023339E /* CoinFlipViewController.swift */; };
+		C5B5E2EC29533CBF0023339E /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5B5E2EB29533CBF0023339E /* giphy.gif */; };
 		C5D820AF2930F21A0023F3B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D820AE2930F21A0023F3B3 /* AppDelegate.swift */; };
 		C5D820B12930F21A0023F3B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D820B02930F21A0023F3B3 /* SceneDelegate.swift */; };
 		C5D820B62930F21A0023F3B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D820B42930F21A0023F3B3 /* Main.storyboard */; };
@@ -25,6 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5833A7F295455A90029B620 /* tails2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tails2.gif; sourceTree = "<group>"; };
+		C5833A8129545B000029B620 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		C5833A83295473F70029B620 /* heads.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = heads.gif; sourceTree = "<group>"; };
 		C5B5E2B3294C503D0023339E /* SpinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinViewController.swift; sourceTree = "<group>"; };
 		C5B5E2B5294C8FA40023339E /* Click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Click.mp3; sourceTree = "<group>"; };
 		C5B5E2B7294C9E810023339E /* Tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tick.mp3; sourceTree = "<group>"; };
@@ -34,6 +42,8 @@
 		C5B5E2E329509B710023339E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C5B5E2E529509CA50023339E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		C5B5E2E629509CA50023339E /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		C5B5E2E9295333290023339E /* CoinFlipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipViewController.swift; sourceTree = "<group>"; };
+		C5B5E2EB29533CBF0023339E /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = Assets.xcassets/giphy.gif; sourceTree = "<group>"; };
 		C5D820AB2930F21A0023F3B3 /* selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D820AE2930F21A0023F3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D820B02930F21A0023F3B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,13 +92,18 @@
 				C5B5E2B7294C9E810023339E /* Tick.mp3 */,
 				C5D820B92930F21C0023F3B3 /* LaunchScreen.storyboard */,
 				C5D820BC2930F21C0023F3B3 /* Info.plist */,
+				C5833A7F295455A90029B620 /* tails2.gif */,
+				C5B5E2EB29533CBF0023339E /* giphy.gif */,
 				C5B5E2B3294C503D0023339E /* SpinViewController.swift */,
 				C5B5E2B929504F150023339E /* JoystickViewController.swift */,
+				C5833A83295473F70029B620 /* heads.gif */,
+				C5833A8129545B000029B620 /* 3.gif */,
 				C5B5E2BB29504F8C0023339E /* SettingsViewController.swift */,
 				C5B5E2E529509CA50023339E /* CustomCollectionViewCell.swift */,
 				C5B5E2E629509CA50023339E /* CustomCollectionViewCell.xib */,
 				C5B5E2E02950807B0023339E /* DataModel.xcdatamodeld */,
 				C5B5E2E329509B710023339E /* MainViewController.swift */,
+				C5B5E2E9295333290023339E /* CoinFlipViewController.swift */,
 			);
 			path = selector;
 			sourceTree = "<group>";
@@ -157,12 +172,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5833A8229545B010029B620 /* 3.gif in Resources */,
+				C5B5E2EC29533CBF0023339E /* giphy.gif in Resources */,
 				C5D820BB2930F21C0023F3B3 /* LaunchScreen.storyboard in Resources */,
 				C5B5E2E829509CA60023339E /* CustomCollectionViewCell.xib in Resources */,
 				C5B5E2B6294C8FA40023339E /* Click.mp3 in Resources */,
 				C5B5E2B8294C9E810023339E /* Tick.mp3 in Resources */,
 				C5D820B82930F21C0023F3B3 /* Assets.xcassets in Resources */,
 				C5D820B62930F21A0023F3B3 /* Main.storyboard in Resources */,
+				C5833A84295473F70029B620 /* heads.gif in Resources */,
+				C5833A80295455AA0029B620 /* tails2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +195,7 @@
 				C5B5E2E429509B710023339E /* MainViewController.swift in Sources */,
 				C5B5E2B4294C503D0023339E /* SpinViewController.swift in Sources */,
 				C5D820AF2930F21A0023F3B3 /* AppDelegate.swift in Sources */,
+				C5B5E2EA295333290023339E /* CoinFlipViewController.swift in Sources */,
 				C5B5E2E729509CA60023339E /* CustomCollectionViewCell.swift in Sources */,
 				C5B5E2BA29504F150023339E /* JoystickViewController.swift in Sources */,
 				C5B5E2E22950807C0023339E /* DataModel.xcdatamodeld in Sources */,

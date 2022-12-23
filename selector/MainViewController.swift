@@ -15,27 +15,14 @@ class MainViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(.init(nibName: "CustomCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "CustomCollectionViewCell")
-
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+
 extension MainViewController: UICollectionViewDataSource {
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 10
     }
-    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCollectionViewCell", for: indexPath) as! CustomCollectionViewCell
             cell.layer.cornerRadius = 8
@@ -43,7 +30,9 @@ extension MainViewController: UICollectionViewDataSource {
             return cell
         }
     }
+
 extension MainViewController: UICollectionViewDelegateFlowLayout {
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         .init(width: collectionView.frame.width/2 - 6 , height: collectionView.frame.width/2 - 6)
     }
@@ -55,3 +44,19 @@ extension MainViewController: UICollectionViewDelegateFlowLayout {
     }
 }
 
+extension MainViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if indexPath.row == 0 {
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "CoinFlipViewController") as! CoinFlipViewController
+            
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        else {
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "JoystickViewController") as! JoystickViewController
+            
+            self.navigationController?.pushViewController(vc, animated: true)
+            
+        }
+
+    }
+}

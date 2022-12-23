@@ -76,8 +76,8 @@ class SpinViewController: UIViewController {
     }
     
     @IBAction func rotateTap(_ sender: Any) {
-        fortuneWheel.startRotationAnimation(finishIndex: finishIndex, continuousRotationTime: 1) { (finished) in
-            print(finished)
+        fortuneWheel.startRotationAnimation(finishIndex: finishIndex, continuousRotationTime: 2) { (finished) in
+            print("dog\(self.finishIndex)")
         }
     }
 }
@@ -129,7 +129,7 @@ public extension SFWConfiguration {
         
         var wheelPreferences = SFWConfiguration.WheelPreferences(circlePreferences: circlePreferences,
                                                                  slicePreferences: slicePreferences,
-                                                                 startPosition: .right)
+                                                                 startPosition: .top)
         
         wheelPreferences.imageAnchor = anchorImage
         
