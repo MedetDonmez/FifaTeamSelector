@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5182ADC295587190042682F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5182AD8295587190042682F /* CollectionViewCell.xib */; };
+		C5182ADD295587190042682F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5182AD9295587190042682F /* UIColor+Extensions.swift */; };
+		C5182ADE295587190042682F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5182ADA295587190042682F /* CollectionViewController.swift */; };
+		C5182ADF295587190042682F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5182ADB295587190042682F /* CollectionViewCell.swift */; };
+		C5182AE129558BFE0042682F /* DiceRollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5182AE029558BFE0042682F /* DiceRollViewController.swift */; };
 		C5833A80295455AA0029B620 /* tails2.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5833A7F295455A90029B620 /* tails2.gif */; };
 		C5833A8229545B010029B620 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5833A8129545B000029B620 /* 3.gif */; };
 		C5833A84295473F70029B620 /* heads.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5833A83295473F70029B620 /* heads.gif */; };
@@ -30,6 +35,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5182AD8295587190042682F /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		C5182AD9295587190042682F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		C5182ADA295587190042682F /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		C5182ADB295587190042682F /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		C5182AE029558BFE0042682F /* DiceRollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollViewController.swift; sourceTree = "<group>"; };
 		C5833A7F295455A90029B620 /* tails2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tails2.gif; sourceTree = "<group>"; };
 		C5833A8129545B000029B620 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
 		C5833A83295473F70029B620 /* heads.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = heads.gif; sourceTree = "<group>"; };
@@ -86,6 +96,10 @@
 			children = (
 				C5D820AE2930F21A0023F3B3 /* AppDelegate.swift */,
 				C5D820B02930F21A0023F3B3 /* SceneDelegate.swift */,
+				C5182ADB295587190042682F /* CollectionViewCell.swift */,
+				C5182AD8295587190042682F /* CollectionViewCell.xib */,
+				C5182ADA295587190042682F /* CollectionViewController.swift */,
+				C5182AD9295587190042682F /* UIColor+Extensions.swift */,
 				C5D820B42930F21A0023F3B3 /* Main.storyboard */,
 				C5D820B72930F21C0023F3B3 /* Assets.xcassets */,
 				C5B5E2B5294C8FA40023339E /* Click.mp3 */,
@@ -104,6 +118,7 @@
 				C5B5E2E02950807B0023339E /* DataModel.xcdatamodeld */,
 				C5B5E2E329509B710023339E /* MainViewController.swift */,
 				C5B5E2E9295333290023339E /* CoinFlipViewController.swift */,
+				C5182AE029558BFE0042682F /* DiceRollViewController.swift */,
 			);
 			path = selector;
 			sourceTree = "<group>";
@@ -174,6 +189,7 @@
 			files = (
 				C5833A8229545B010029B620 /* 3.gif in Resources */,
 				C5B5E2EC29533CBF0023339E /* giphy.gif in Resources */,
+				C5182ADC295587190042682F /* CollectionViewCell.xib in Resources */,
 				C5D820BB2930F21C0023F3B3 /* LaunchScreen.storyboard in Resources */,
 				C5B5E2E829509CA60023339E /* CustomCollectionViewCell.xib in Resources */,
 				C5B5E2B6294C8FA40023339E /* Click.mp3 in Resources */,
@@ -193,6 +209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5B5E2E429509B710023339E /* MainViewController.swift in Sources */,
+				C5182ADD295587190042682F /* UIColor+Extensions.swift in Sources */,
+				C5182ADF295587190042682F /* CollectionViewCell.swift in Sources */,
 				C5B5E2B4294C503D0023339E /* SpinViewController.swift in Sources */,
 				C5D820AF2930F21A0023F3B3 /* AppDelegate.swift in Sources */,
 				C5B5E2EA295333290023339E /* CoinFlipViewController.swift in Sources */,
@@ -201,6 +219,8 @@
 				C5B5E2E22950807C0023339E /* DataModel.xcdatamodeld in Sources */,
 				C5B5E2BC29504F8C0023339E /* SettingsViewController.swift in Sources */,
 				C5D820B12930F21A0023F3B3 /* SceneDelegate.swift in Sources */,
+				C5182AE129558BFE0042682F /* DiceRollViewController.swift in Sources */,
+				C5182ADE295587190042682F /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +380,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = medetdonmez.selector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sametkoyuncu.selector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -388,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = medetdonmez.selector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sametkoyuncu.selector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
