@@ -20,7 +20,6 @@
 		C5B5E2B8294C9E810023339E /* Tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5B5E2B7294C9E810023339E /* Tick.mp3 */; };
 		C5B5E2BA29504F150023339E /* JoystickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5E2B929504F150023339E /* JoystickViewController.swift */; };
 		C5B5E2BC29504F8C0023339E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5E2BB29504F8C0023339E /* SettingsViewController.swift */; };
-		C5B5E2E22950807C0023339E /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5B5E2E02950807B0023339E /* DataModel.xcdatamodeld */; };
 		C5B5E2E429509B710023339E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5E2E329509B710023339E /* MainViewController.swift */; };
 		C5B5E2E729509CA60023339E /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5E2E529509CA50023339E /* CustomCollectionViewCell.swift */; };
 		C5B5E2E829509CA60023339E /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5B5E2E629509CA50023339E /* CustomCollectionViewCell.xib */; };
@@ -48,7 +47,6 @@
 		C5B5E2B7294C9E810023339E /* Tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tick.mp3; sourceTree = "<group>"; };
 		C5B5E2B929504F150023339E /* JoystickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickViewController.swift; sourceTree = "<group>"; };
 		C5B5E2BB29504F8C0023339E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		C5B5E2E12950807B0023339E /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		C5B5E2E329509B710023339E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C5B5E2E529509CA50023339E /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		C5B5E2E629509CA50023339E /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 				C5B5E2BB29504F8C0023339E /* SettingsViewController.swift */,
 				C5B5E2E529509CA50023339E /* CustomCollectionViewCell.swift */,
 				C5B5E2E629509CA50023339E /* CustomCollectionViewCell.xib */,
-				C5B5E2E02950807B0023339E /* DataModel.xcdatamodeld */,
 				C5B5E2E329509B710023339E /* MainViewController.swift */,
 				C5B5E2E9295333290023339E /* CoinFlipViewController.swift */,
 				C5182AE029558BFE0042682F /* DiceRollViewController.swift */,
@@ -216,7 +213,6 @@
 				C5B5E2EA295333290023339E /* CoinFlipViewController.swift in Sources */,
 				C5B5E2E729509CA60023339E /* CustomCollectionViewCell.swift in Sources */,
 				C5B5E2BA29504F150023339E /* JoystickViewController.swift in Sources */,
-				C5B5E2E22950807C0023339E /* DataModel.xcdatamodeld in Sources */,
 				C5B5E2BC29504F8C0023339E /* SettingsViewController.swift in Sources */,
 				C5D820B12930F21A0023F3B3 /* SceneDelegate.swift in Sources */,
 				C5182AE129558BFE0042682F /* DiceRollViewController.swift in Sources */,
@@ -457,19 +453,6 @@
 			productName = SwiftFortuneWheel;
 		};
 /* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		C5B5E2E02950807B0023339E /* DataModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C5B5E2E12950807B0023339E /* DataModel.xcdatamodel */,
-			);
-			currentVersion = C5B5E2E12950807B0023339E /* DataModel.xcdatamodel */;
-			path = DataModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = C5D820A32930F21A0023F3B3 /* Project object */;
 }
